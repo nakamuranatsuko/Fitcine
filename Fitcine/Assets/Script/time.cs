@@ -8,7 +8,7 @@ public class time : MonoBehaviour
 {
 
     //ŠÔ(‰Šúİ’è)
-    public float countdown = 180.0f;
+    public float countdown = 60.0f;
 
     //•ªA•b
     public int min;
