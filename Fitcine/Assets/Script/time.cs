@@ -54,7 +54,7 @@ public class time : MonoBehaviour
     IEnumerator finish()
     {
         yield return new WaitForSeconds(2);     //3•b‘Ò‚Â
-        SceneManager.LoadScene("SampleScene", LoadSceneMode.Single);
+        SceneManager.LoadScene("menu", LoadSceneMode.Single);
     }
 
 }
