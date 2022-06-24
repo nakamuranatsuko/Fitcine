@@ -7,9 +7,11 @@ public class cameraMove : MonoBehaviour
     //プレイヤーオブジェクト
     public GameObject player;
 
+
     // Update is called once per frame
     void Update()
     {
+
         //transform取得
         Transform cameraTransform = this.transform;
 
@@ -22,7 +24,6 @@ public class cameraMove : MonoBehaviour
 
         //プレイヤーをカメラと同じx座標にする
         player.transform.position = new Vector3(cameraTransform.position.x, -3.48f,1);
-
 
     }
 }
