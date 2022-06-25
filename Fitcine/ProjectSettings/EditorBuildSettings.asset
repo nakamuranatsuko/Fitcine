@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/menu.unity
     guid: e1501a46806c7a34a9f8de2e86ae862c
+  - enabled: 1
+    path: Assets/Scenes/ho-mugamen.unity
+    guid: 0f75a0bb27d26c7438d1bb5bccc4908d
   m_configObjects: {}
