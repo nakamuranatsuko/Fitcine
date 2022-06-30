@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class fin : MonoBehaviour
 {
-    private Rigidbody2D rbody2D;
 
     // Start is called before the first frame update
     void Start()
@@ -23,7 +22,7 @@ public class fin : MonoBehaviour
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
 #else
-	Application.Quit();
+        Application.Quit();
 # endif
     }
 

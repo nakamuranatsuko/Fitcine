@@ -6,8 +6,6 @@ using UnityEngine.SceneManagement;
 public class start : MonoBehaviour
 {
 
-    private Rigidbody2D rbody2D;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +20,7 @@ public class start : MonoBehaviour
 
     public void OnClickStart()
     {
-        SceneManager.LoadScene("SampleScene", LoadSceneMode.Single);
+        SceneManager.LoadScene("play", LoadSceneMode.Single);
         //‰æ–Ê‘JˆÚ
     }
 }
