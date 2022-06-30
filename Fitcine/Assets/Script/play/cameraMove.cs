@@ -17,13 +17,14 @@ public class cameraMove : MonoBehaviour
 
         //座標取得
         Vector3 pos = cameraTransform.position;
-        pos.x += 0.01f; //x座標に0.01加算(float)
+        pos.x += 0.02f; //x座標に0.01加算(float)
 
         //座標を設定
         cameraTransform.position = pos;
 
         //プレイヤーをカメラと同じx座標にする
-        player.transform.position = new Vector3(cameraTransform.position.x, -3.48f,1);
+        Vector3 playerPos = player.transform.position;
+        player.transform.position = new Vector3(cameraTransform.position.x, playerPos.y, playerPos.z);
 
     }
 }
