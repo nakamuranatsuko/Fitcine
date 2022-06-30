@@ -1306,7 +1306,7 @@ GameObject:
   - component: {fileID: 800229246}
   - component: {fileID: 800229245}
   - component: {fileID: 800229244}
-  - component: {fileID: 800229247}
+  - component: {fileID: 800229248}
   m_Layer: 5
   m_Name: menuButton
   m_TagString: Untagged
@@ -1332,7 +1332,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 384, y: 218}
+  m_AnchoredPosition: {x: 271, y: 113}
   m_SizeDelta: {x: 100, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &800229244
@@ -1379,9 +1379,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 800229247}
-        m_TargetAssemblyTypeName: menu_Move, Assembly-CSharp
-        m_MethodName: onClickmenu
+      - m_Target: {fileID: 800229248}
+        m_TargetAssemblyTypeName: Cledk_Home, Assembly-CSharp
+        m_MethodName: OnClickMenew
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1429,7 +1429,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 800229242}
   m_CullTransparentMesh: 1
---- !u!114 &800229247
+--- !u!114 &800229248
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1438,7 +1438,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 800229242}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e33e1675048452d49801add86ab4fcc1, type: 3}
+  m_Script: {fileID: 11500000, guid: 0fe525b3f5806264d918dc8d20484a29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &819106671
