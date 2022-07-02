@@ -11,14 +11,14 @@ public class menu_Move : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Escape))
         {
-            SceneManager.LoadScene("menew", LoadSceneMode.Single);
+            SceneManager.LoadScene("menu", LoadSceneMode.Single);
         }
 
     }
 
     public void onClickmenu()
     {
-        SceneManager.LoadScene("menew", LoadSceneMode.Single);
+        SceneManager.LoadScene("menu", LoadSceneMode.Single);
     }
 
 }

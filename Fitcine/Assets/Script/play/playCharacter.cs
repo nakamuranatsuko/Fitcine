@@ -8,19 +8,19 @@ public class playCharacter : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private int jumpForce;
 
-    public AudioClip se;
-    AudioSource audioSource;
+    private bool isJump = false;
 
-    private bool isJumping = false;
+    public AudioClip Se;
+    AudioSource audioSource;
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && !isJumping)
+        if (Input.GetKeyDown(KeyCode.Space) && !isJump)
         {
             audioSource = GetComponent<AudioSource>();
-            isJumping = true;
+            isJump = true;
             Jump();
-            audioSource.PlayOneShot(se);
+            audioSource.PlayOneShot(Se);
         }
 
         //transforméÊìæ
@@ -29,20 +29,15 @@ public class playCharacter : MonoBehaviour
         //ç¿ïWéÊìæ
         Vector3 rb_pos = rbTransform.position;
 
-        if (rb_pos.y < -3.73f)
+        if(rb_pos.y < -3.73f)
         {
+            isJump = false;
             rb_pos.y = -3.73f;
-            //ç¿ïWÇê›íË
             rbTransform.position = rb_pos;
-            isJumping = false;
         }
-        
     }
     void Jump()
     {
-        
         rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-        
-
     }
 }
