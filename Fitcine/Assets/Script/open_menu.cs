@@ -3,30 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class fin_Move: MonoBehaviour
+public class open_menu : MonoBehaviour
 {
-
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
-    void Update()
+    public void OnClickHome()
     {
-        
+        SceneManager.LoadScene("ho-mugamen", LoadSceneMode.Single);
     }
-    public void OnClickExit()
-    {
-#if UNITY_EDITOR
-        UnityEditor.EditorApplication.isPlaying = false;
-#else
-        Application.Quit();
-# endif
-    }
-
-
 }
-
-
