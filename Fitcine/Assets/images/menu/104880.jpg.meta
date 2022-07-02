@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Fitcine/Assets/images/menu/104880.jpg.meta
 guid: 0da3d419472c4444b917413dce672652
+========
+guid: 12c1f736353910b45b48e912b8a71b8b
+>>>>>>>> 355474d2b90875bdc0fcac09df5d10d18b9c0ed6:Fitcine/Assets/images/home/hrbt_hatena.jpg.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
