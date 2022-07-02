@@ -3,24 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class start : MonoBehaviour
+public class Cledk_Home : MonoBehaviour
 {
-
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
-    void Update()
+    public void OnClickMenew()
     {
-
-    }
-
-    public void OnClickStart()
-    {
-        SceneManager.LoadScene("play", LoadSceneMode.Single);
-        //‰æ–Ê‘JˆÚ
+        SceneManager.LoadScene("menew", LoadSceneMode.Single);
     }
 }
