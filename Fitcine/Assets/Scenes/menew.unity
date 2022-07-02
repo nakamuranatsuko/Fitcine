@@ -204,7 +204,11 @@ GameObject:
   - component: {fileID: 354220830}
   - component: {fileID: 354220833}
   m_Layer: 5
+<<<<<<< HEAD
   m_Name: title
+=======
+  m_Name: "\u30BF\u30A4\u30C8\u30EB\u753B\u9762\u3078\u623B\u308B"
+>>>>>>> 355474d2b90875bdc0fcac09df5d10d18b9c0ed6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
